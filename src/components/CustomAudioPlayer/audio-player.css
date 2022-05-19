@@ -1,0 +1,46 @@
+.audio-player-block {
+  margin: 0;
+  border: 1px solid #d9d8d6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.audio-player-container {
+  width: 40px;
+  overflow: hidden;
+}
+
+.audio-details {
+  margin: 0 16px;
+  flex-grow: 1;
+}
+
+.audio-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #435055;
+}
+
+.audio-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #676767;
+}
+
+.audio-player-container audio::-webkit-media-controls-current-time-display,
+.audio-player-container audio::-webkit-media-controls-time-remaining-display,
+.audio-player-container audio::-webkit-media-controls-timeline,
+.audio-player-container audio::-webkit-media-controls-volume-slider-container,
+.audio-player-container audio::-webkit-media-controls-volume-slider,
+.audio-player-container audio::-webkit-media-controls-mute-button {
+  display: none;
+}
+
+.audio-player-container audio::-webkit-media-controls-panel {
+  background-color: #fff;
+}

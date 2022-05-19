@@ -1,0 +1,154 @@
+.header-container {
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 5px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ham-container {
+  margin-right: 12px;
+}
+
+/* ham-menu  */
+.menu-link-wrapper {
+  width: 65px;
+  height: 45px;
+  cursor: pointer;
+  margin-left: -12px;
+}
+
+.menu-link {
+  width: 100%;
+  height: 100%;
+}
+
+.lines {
+  -moz-transition: background 0.2s ease 0.4s;
+  -o-transition: background 0.2s ease 0.4s;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease 0.4s;
+  display: block;
+  width: 100%;
+  height: 3px;
+  border-radius: 60px;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  width: 50%;
+  margin: 0 20%;
+  position: relative;
+  background: #082947;
+  top: 22px;
+}
+
+.lines:before,
+.lines:after {
+  display: block;
+  width: 100%;
+  height: 3px;
+  border-radius: 60px;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  position: absolute;
+  left: 0;
+  content: "";
+  background: #082947;
+  -moz-transition: -moz-transform 0.2s ease 0s, width 0.2s ease 0.2s,
+    top 0.2s ease 0.4s;
+  -o-transition: -o-transform 0.2s ease 0s, width 0.2s ease 0.2s,
+    top 0.2s ease 0.4s;
+  -webkit-transition: -webkit-transform 0.2s ease, width 0.2s ease,
+    top 0.2s ease;
+
+  transition: transform 0.2s ease 0s, width 0.2s ease 0.2s, top 0.2s ease 0.4s;
+  -moz-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+}
+
+.lines:before {
+  top: -10px;
+}
+
+.lines:after {
+  top: 10px;
+}
+
+.menu-trigger-open .lines {
+  -moz-transition: background 0.2s ease 0s;
+  -o-transition: background 0.2s ease 0s;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease 0s;
+}
+
+.menu-trigger-open .lines:before,
+.menu-trigger-open .lines:after {
+  -moz-transition: top 0.2s ease 0s, width 0.2s ease 0.2s,
+    -moz-transform 0.2s ease 0.4s;
+  -o-transition: top 0.2s ease 0s, width 0.2s ease 0.2s,
+    -o-transform 0.2s ease 0.4s;
+  -webkit-transition: top 0.2s ease, width 0.2s ease,
+    -webkit-transform 0.2s ease;
+  transition: top 0.2s ease 0s, width 0.2s ease 0.2s, transform 0.2s ease 0.4s;
+  top: 0;
+  width: 50%;
+}
+
+.menu-trigger-open .lines:before {
+  -moz-transform: rotate3d(0, 0, 1, 45deg);
+  -webkit-transform: rotate3d(0, 0, 1, 45deg);
+  transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.menu-trigger-open .lines:after {
+  -moz-transform: rotate3d(0, 0, 1, -45deg);
+  -webkit-transform: rotate3d(0, 0, 1, -45deg);
+  transform: rotate3d(0, 0, 1, -45deg);
+}
+
+.profile-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.p-user-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #676767;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.name-tag {
+  margin-left: 10px;
+}
+
+.menu-arrow {
+  margin-left: 60px;
+}
+
+.header-right-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.toggle-panel-switch {
+  margin-right: 20px;
+  cursor: pointer;
+}

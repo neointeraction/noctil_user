@@ -1,0 +1,13 @@
+/* Loader 1 */
+
+.loader-container {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.loader-container .MuiCircularProgress-root {
+  color: #ff5c00;
+}

@@ -1,0 +1,26 @@
+.breadcrumb-text {
+  font-family: "Red Hat Display", sans-serif !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #435055;
+}
+
+.page-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 37px;
+  color: #435055;
+  margin: 10px 0;
+}
+
+.page-sub-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #435055;
+}
+
+.MuiBreadcrumbs-separator{
+  margin-bottom: -5px;
+}

@@ -1,0 +1,61 @@
+.custom-button {
+  font-family: "Red Hat Display", sans-serif;
+  background: #ff5c00;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.custom-button:disabled {
+  opacity: 0.5;
+  cursor: initial;
+}
+
+.custom-button:hover {
+  background: #c74b06;
+  transition: 0.3s all ease-in-out;
+}
+
+.custom-button.secondary {
+  background: #dcdedf;
+  color: #435055;
+}
+
+.custom-button.secondary:hover {
+  background: #f5f5f5;
+  transition: 0.3s all ease-in-out;
+}
+
+.btn-with-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-icon {
+  margin-bottom: -3px;
+  margin-right: 5px;
+}
+
+.btn-icon svg {
+  height: auto !important;
+  font-size: 20px;
+}
+
+.icon-button {
+  padding: 9px 20px;
+}
+
+.btn-progress {
+  line-height: 0;
+}
+
+.btn-progress .MuiCircularProgress-root {
+  color: #fff;
+}

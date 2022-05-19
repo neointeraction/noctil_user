@@ -1,0 +1,9 @@
+.draggable-tab-container {
+  flex-grow: 1;
+}
+
+.tab-icon {
+  vertical-align: sub;
+  margin-right: 5px;
+  margin-top: -1px;
+}

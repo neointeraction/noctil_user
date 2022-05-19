@@ -1,0 +1,19 @@
+/* Loader 1 */
+
+.tab-container {
+  margin: 0;
+}
+
+.tab-container .Mui-selected {
+  background-color: transparent !important;
+  color: #435055 !important;
+}
+
+.tab-container .MuiButtonBase-root {
+  font-weight: 500;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #435055;
+  text-transform: capitalize;
+}

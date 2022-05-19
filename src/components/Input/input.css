@@ -1,0 +1,61 @@
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group:last-child {
+  margin-bottom: 0;
+}
+
+.input-custom {
+  font-family: "Red Hat Display", sans-serif !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  background: #ffffff;
+  border: 1px solid #afafaf;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 9.5px 12px;
+  margin-right: 0;
+  width: 100% !important;
+}
+
+.input-custom:hover {
+  border: 1px solid #435055;
+}
+
+.input-custom:focus {
+  outline: 1px solid #ff5c00;
+  border: 1px solid #ff5c00;
+}
+.input-custom:focus-visible {
+  outline: 1px solid #ff5c00;
+  border: 1px solid #ff5c00;
+}
+
+.input-custom::placeholder {
+  color: #afafaf;
+}
+
+.input-custom.error {
+  border: 1px solid #e83b3b;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5c5c5c;
+  text-align: left;
+}
+
+.error-text {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #e83b3b;
+  margin-top: 5px;
+}

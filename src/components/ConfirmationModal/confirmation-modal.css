@@ -1,0 +1,60 @@
+.loader-container {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.dialog-content {
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 4px;
+  width: 460px;
+}
+
+.modal-main-title {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #435055;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.modal-sub-title {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #afafaf;
+  text-align: center;
+}
+
+.action-btn-flex.modal-action {
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.action-btn-flex.modal-action .button-container:first-child {
+  margin-left: 0;
+}
+
+.confirm-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 60px;
+  height: 60px;
+  background: rgba(9, 49, 96, 0.1);
+  margin: auto auto 20px auto;
+  border-radius: 4px;
+}
+
+.confirm-image img {
+  border-radius: 4px;
+  padding: 14px;
+}

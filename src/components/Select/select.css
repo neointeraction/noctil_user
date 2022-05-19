@@ -1,0 +1,66 @@
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group:last-child {
+  margin-bottom: 0;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5c5c5c;
+  text-align: left;
+}
+
+.custom-select {
+  width: 100%;
+}
+
+.custom-select .MuiSelect-select {
+  font-family: "Red Hat Display", sans-serif !important;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border: 1px solid #dcdedf !important;
+  border-radius: 4px;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+}
+
+.custom-menuItem {
+  font-family: "Red Hat Display", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #ff5c00 !important;
+}
+
+.Mui-selected {
+  background-color: #dcdedf !important;
+}
+
+.MuiMenuItem-root:hover {
+  background-color: #dcdedf !important;
+}
+
+.custom-list-text .MuiListItemText-primary {
+  font-family: "Red Hat Display", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+}
+
+.custom-list-checked {
+  padding: 0 9px 0 0 !important;
+}
+
+.select-placeholder {
+  color: #afafaf;
+}

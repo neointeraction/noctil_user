@@ -1,0 +1,22 @@
+.layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.layout-left {
+  flex-basis: 70px;
+}
+
+.layout-right {
+  flex-basis: 93%;
+}
+
+.layout-main {
+  max-height: calc(100vh - 120px);
+  overflow: auto;
+  padding: 20px;
+  width: 100%;
+}
